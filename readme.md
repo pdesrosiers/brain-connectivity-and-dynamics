@@ -17,8 +17,9 @@ This notebook guides you through:
 - **Inferring functional connectivity** from calcium imaging data  
 - **Quantifying structure–function coupling** using correlation and node-level metrics
 
-📁 `structural_functional_connectivity_tutorial.ipynb`  
-▶️ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/structural_functional_connectivity_tutorial.ipynb)
+📁 [`structural_functional_connectivity_tutorial.ipynb`](https://github.com/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks/blob/main/structural_functional_connectivity_tutorial.ipynb)  
+▶️ [Open in Colab](https://colab.research.google.com/github/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks/blob/main/structural_functional_connectivity_tutorial.ipynb)
+
 
 ---
 
@@ -30,8 +31,8 @@ This notebook focuses on:
 - **Modeling population-level activity** in zebrafish-inspired neural circuits  
 - **Comparing simulated activity with empirical patterns** from calcium imaging
 
-📁 `neural_dynamics_simulation.ipynb`  
-▶️ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/neural_dynamics_simulation.ipynb)
+📁   
+▶️ 
 
 ---
 
