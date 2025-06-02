@@ -35,17 +35,52 @@ This notebook focuses on:
 ▶️ 
 
 ---
+## Data
+
+
+All data used in these notebooks are publicly available. In particular, we rely on the following dataset:
+
+**Dataset**: *Structural and genetic determinants of zebrafish functional brain networks*  
+**Authors**: Antoine Légaré, Mado Lemieux, Vincent Boily, Sandrine Poulin, Arthur Légaré, Patrick Desrosiers, Paul De Koninck  
+**Repository**: Borealis – Sentinelle Nord, Université Laval  
+**DOI**: [https://doi.org/10.5683/SP3/IIVGOB](https://doi.org/10.5683/SP3/IIVGOB)  
+**Description**: Whole-brain calcium imaging data from larval zebrafish (5–7 dpf), including synchronized tail movement recordings.  
+**Note**: A subset of this dataset is included in the [`/data`](./data/) folder for educational use.
+
+
+---
 
 ## Getting Started
 
-1. Clone the repository  
-2. Install dependencies (e.g., `numpy`, `scipy`, `networkx`, `matplotlib`, `seaborn`, `notebook`, `rise`)  
-3. Launch Jupyter and run the notebooks step by step
+### ▶️ Run in Google Colab (Recommended)
 
-```bash
-pip install -r requirements.txt
-jupyter notebook
-```
+You can run each notebook directly in your browser using **Google Colab** — no installation required. Just click the **"Open in Colab"** badge provided under each notebook title.
+
+Make sure you're logged into a Google account and accept any permissions required to access files.
+
+### 🖥️ Run Locally (Optional – for advanced users)
+
+If you prefer to run the notebooks on your own machine:
+
+1. Clone the repository 
+
+	```bash
+   git clone https://github.com/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks.git
+   cd Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks
+   ```
+	
+2.	Install the required Python packages
+
+	```bash
+	pip install -r requirements.txt
+	```
+	
+3. Launch Jupyter Notebook
+
+	```bash 
+	jupyter notebook
+	```
+
 ---
 ## Acknowledgments
 We thank the **organizing committee of the Frontiers in Neurophotonics Summer School 2025** for the opportunity to present this hands-on session.
