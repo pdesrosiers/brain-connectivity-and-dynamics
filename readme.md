@@ -2,10 +2,12 @@
 
 This repository contains interactive Jupyter notebooks prepared for a hands-on session held as part of the **Frontiers in Neurophotonics Summer School 2025**.
 
+---
 ## Overview
 
 Modern network science and computational modeling offer powerful tools to analyze brain connectivity and neuronal dynamics. In this hands-on session, you will explore how to represent structural and functional brain networks as graphs, extract meaningful features, and simulate activity using biologically inspired models.
 
+---
 ## Notebooks
 
 ### 1. Structural and Functional Network Analysis
@@ -17,11 +19,9 @@ This notebook guides you through:
 - **Inferring functional connectivity** from calcium imaging data  
 - **Quantifying structure–function coupling** using correlation and node-level metrics
 
-📁 [`structural_functional_connectivity_tutorial.ipynb`](https://github.com/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks/blob/main/structural_functional_connectivity_tutorial.ipynb)  
-▶️ [Open in Colab](https://colab.research.google.com/github/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks/blob/main/structural_functional_connectivity_tutorial.ipynb)
+📁 [`structural_functional_connectivity_tutorial.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb)  
+▶️ [Open in Colab](https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb)
 
-
----
 
 ### 2. Neural Dynamics Simulation
 
