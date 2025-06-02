@@ -20,7 +20,8 @@ This notebook guides you through:
 - **Quantifying structure–function coupling** using correlation and node-level metrics
 
 📁 [`structural_functional_connectivity_tutorial.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb)  
-▶️ [Open in Colab](https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb)
+<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 
 ### 2. Neural Dynamics Simulation
@@ -32,7 +33,8 @@ This notebook focuses on:
 - **Comparing simulated activity with empirical patterns** from calcium imaging
 
 📁   
-▶️ 
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+
 
 ---
 ## Data
@@ -57,6 +59,12 @@ All data used in these notebooks are publicly available. In particular, we rely 
 You can run each notebook directly in your browser using **Google Colab** — no installation required. Just click the **"Open in Colab"** badge provided under each notebook title.
 
 Make sure you're logged into a Google account and accept any permissions required to access files.
+
+💾 To save your changes, go to
+
+```File → Save a copy in Drive```
+
+This creates a private, editable version of the notebook in your own Google Drive.
 
 ### 🖥️ Run Locally (Optional – for advanced users)
 
