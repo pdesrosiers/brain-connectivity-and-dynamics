@@ -30,8 +30,8 @@ This notebook guides you through:
 This notebook focuses on:
 
 - **Simulating single-neuron dynamics** with Hodgkin-Huxley (HH) and leaky integrate and fire (LIF) equations  
-- **Modeling population-level activity** in zebrafish-inspired neural circuits  
-- **Comparing simulated activity with empirical patterns** from calcium imaging
+- **Modeling population-level activity** with networks of LIF neurons and model the calcium fluorescence response
+- **Modeling a decision making nework in the zebrafish** with a combination of synapses, gap junctions, LIF and HH equations
 
 📁  [`MathModelsOfNeuralActivityV3.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/MathModelsOfNeuralActivityV3.ipynb)
  
