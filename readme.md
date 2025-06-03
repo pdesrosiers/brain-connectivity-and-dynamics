@@ -76,8 +76,8 @@ If you prefer to run the notebooks on your own machine:
 1. Clone the repository 
 
 	```bash
-   git clone https://github.com/pdesrosiers/Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks.git
-   cd Graph-and-dynamical-systems-approaches-to-whole-brain-neuronal-networks
+   git clone https://github.com/pdesrosiers/brain-connectivity-and-dynamics
+   cd brain-connectivity-and-dynamics
    ```
 	
 2.	Install the required Python packages
