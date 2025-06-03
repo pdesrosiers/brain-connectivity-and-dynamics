@@ -29,7 +29,7 @@ This notebook guides you through:
 
 This notebook focuses on:
 
-- **Simulating single-neuron dynamics** and generating synthetic calcium traces  
+- **Simulating single-neuron dynamics** with Hodgkin-Huxley (HH) and leaky integrate and fire (LIF) equations  
 - **Modeling population-level activity** in zebrafish-inspired neural circuits  
 - **Comparing simulated activity with empirical patterns** from calcium imaging
 
