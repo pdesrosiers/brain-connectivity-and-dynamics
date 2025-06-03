@@ -1,7 +1,16 @@
 numpy
+math
+scipy
 networkx
+statistics
 python-louvain 
 matplotlib
 seaborn
 gdown
 scipy
+community
+google
+io
+os
+warnings
+zipfile
