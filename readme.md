@@ -33,7 +33,7 @@ This notebook focuses on:
 - **Modeling population-level activity** with networks of LIF neurons and model the calcium fluorescence response
 - **Modeling a decision making nework in the zebrafish** with a combination of synapses, gap junctions, LIF and HH equations
 
-📁  [`MathModelsOfNeuralActivityV3.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics.ipynb)
+📁  [`ModelsOfNeuralActivity.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics.ipynb)
  
 <a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics.ipynb">  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
