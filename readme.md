@@ -1,6 +1,6 @@
 # Graph and Dynamical Systems Approaches to Whole-Brain Neuronal Networks
 
-This repository contains interactive Jupyter notebooks prepared for a hands-on session held as part of the **Frontiers in Neurophotonics Summer School 2025**.
+This repository contains interactive Jupyter notebooks prepared for a hands-on session held as part of the **Frontiers in Neurophotonics Summer School 2026**.
 
 ---
 ## Overview
@@ -12,12 +12,28 @@ Modern network science and computational modeling offer powerful tools to analyz
 
 ### 1. Structural and Functional Network Analysis
 
-This notebook guides you through:
+The first hands-on session is divided into two comprehensive parts:
 
-- **Analyzing structural connectivity** from zebrafish brain data  
-- **Computing graph-theoretical features** such as degree, clustering, and path metrics  
-- **Inferring functional connectivity** from calcium imaging data  
-- **Quantifying structure–function coupling** using correlation and node-level metrics
+#### Part 1: Calcium Imaging Signal Extraction & Spatial Network Constraints
+
+This notebook focuses on the essential upstream data-engineering steps required to transform raw whole-brain optical recordings into pristine functional trace matrices.
+
+- **Interactive Spatial Masking:** Developing custom HTML5 canvas envelopes to isolate valid parenchymal brain tissue from peripheral agarose and ring artifacts.
+- **Cell Segmentation:** Extracting unique cellular centroids across the larval zebrafish brain using spatial Gaussian filtering and local neighborhood maximum features.
+- **Geometric Constraint Testing:** Evaluating how physical space limits network coupling by fitting distance-binned absolute correlations ($|R|$) to a truncated non-linear exponential decay model ($|R(d)| \propto e^{-d/\lambda}$) to extract the circuit's characteristic length ($\lambda$).
+
+📁 [`structural_functional_connectivity_tutorial_2026.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/functional_data_tutorial_2026.ipynb)
+  
+<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/functional_data_tutorial_2026.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+#### Part 2: Graph Theory and Zebrafish Brain Network
+
+This notebook transitions into network neuroscience, exploring how structural parameters shape collective functional networks and behavioral outputs.
+
+- **Functional Network Inference:** Constructing whole-brain functional connectivity (FC) matrices via pairwise Pearson correlations and using row-wise Z-score scaling and symmetrical hierarchical clustering to reveal synchronized neural assemblies.
+- **Graph-Theoretical Characterization:** Mapping the functional and structural brain graphs to calculate core topological features such as degree, strength, clustering coefficients, path lengths, and centrality metrics.
+-**Structure–Function Coupling:** Quantifying the alignment between anatomical wiring (SC) and statistical dependencies (FC) using matrix correlation and node-level metrics.
 
 📁 [`structural_functional_connectivity_tutorial.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial.ipynb)
   
