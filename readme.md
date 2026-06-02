@@ -22,7 +22,7 @@ This notebook focuses on the essential upstream data-engineering steps required 
 - **Cell Segmentation:** Extracting unique cellular centroids across the larval zebrafish brain using spatial Gaussian filtering and local neighborhood maximum features.
 - **Geometric Constraint Testing:** Evaluating how physical space limits network coupling by fitting distance-binned absolute correlations ($|R|$) to a truncated non-linear exponential decay model ($|R(d)| \propto e^{-d/\lambda}$) to extract the circuit's characteristic length ($\lambda$).
 
-📁 [`structural_functional_connectivity_tutorial_2026.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/functional_data_tutorial_2026.ipynb)
+📁 [`functional_data_tutorial_2026.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/functional_data_tutorial_2026.ipynb)
   
 <a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/functional_data_tutorial_2026.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
@@ -41,17 +41,17 @@ This notebook transitions into network neuroscience, exploring how structural pa
 </a>
 
 
-### 2. Neural Dynamics Simulation
+### Part 2: Neural Dynamics and Circuit Simulation
 
-This notebook focuses on:
+This notebook transitions from static data processing to mechanistic computational modeling, focusing on how network connectivity rules shape population dynamics and drive behavior.
 
-- **Simulating single-neuron dynamics** with Hodgkin-Huxley (HH) and leaky integrate and fire (LIF) equations  
-- **Modeling population-level activity** with networks of LIF neurons and model the calcium fluorescence response
-- **Modeling a decision making nework in the zebrafish** with a combination of synapses, gap junctions, LIF and HH equations
+- **Spiking Networks & Fluorescence Convolutions:** Simulating fundamental single-neuron dynamics, generating random networks of spiking Leaky Integrate-and-Fire (LIF) units, and modeling the resulting calcium fluorescence response through mathematical convolutions (Deneux et al. 2016).
+- **Hindbrain Circuit Motif Interrogation:** Replicating and analyzing the sensory-processing and decision-making model from Koyama et al. (2016) to study how manipulating connectivity parameters alters two-alternative behavioral choices.
+- **Brain-Wide Sensorimotor Modeling:** Implementing the population-level neural mass model from Haesemeyer et al. (2018) to simulate heat-evoked swimming behaviors, track firing rates across different cell populations, and evaluate how structural changes modify motor output.
 
-📁  [`ModelsOfNeuralActivity.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics.ipynb)
+📁  [`ModelsOfNeuralActivity.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivity.ipynb)
  
-<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics.ipynb">  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivity.ipynb">  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 
