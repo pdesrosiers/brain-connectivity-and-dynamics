@@ -49,7 +49,7 @@ This notebook transitions from static data processing to mechanistic computation
 - **Hindbrain Circuit Motif Interrogation:** Replicating and analyzing the sensory-processing and decision-making model from Koyama et al. (2016) to study how manipulating connectivity parameters alters two-alternative behavioral choices.
 - **Brain-Wide Sensorimotor Modeling:** Implementing the population-level neural mass model from Haesemeyer et al. (2018) to simulate heat-evoked swimming behaviors, track firing rates across different cell populations, and evaluate how structural changes modify motor output.
 
-📁  [`ModelsOfNeuralActivityNeurohotonics.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics2026.ipynb)
+📁  [`ModelsOfNeuralActivityNeurohotonics2026.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics2026.ipynb)
  
 <a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/ModelsOfNeuralActivityNeurohotonics2026.ipynb">  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
