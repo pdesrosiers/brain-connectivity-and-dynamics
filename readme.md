@@ -10,11 +10,11 @@ Modern network science and computational modeling offer powerful tools to analyz
 ---
 ## Notebooks
 
-### 1. Structural and Functional Network Analysis
+### Session 1. Structural and Functional Network Analysis
 
 The first hands-on session is divided into two comprehensive parts:
 
-#### Session 1: Calcium Imaging Signal Extraction & Spatial Network Constraints
+#### Part 1: Calcium Imaging Signal Extraction & Spatial Network Constraints
 
 This notebook focuses on the essential upstream data-engineering steps required to transform raw whole-brain optical recordings into pristine functional trace matrices.
 
