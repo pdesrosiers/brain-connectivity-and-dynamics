@@ -14,7 +14,7 @@ Modern network science and computational modeling offer powerful tools to analyz
 
 The first hands-on session is divided into two comprehensive parts:
 
-#### Part 1: Calcium Imaging Signal Extraction & Spatial Network Constraints
+#### Session 1: Calcium Imaging Signal Extraction & Spatial Network Constraints
 
 This notebook focuses on the essential upstream data-engineering steps required to transform raw whole-brain optical recordings into pristine functional trace matrices.
 
@@ -41,7 +41,7 @@ This notebook transitions into network neuroscience, exploring how structural pa
 </a>
 
 
-### Part 2: Neural Dynamics and Circuit Simulation
+### Session 2: Neural Dynamics and Circuit Simulation
 
 This notebook transitions from static data processing to mechanistic computational modeling, focusing on how network connectivity rules shape population dynamics and drive behavior.
 
