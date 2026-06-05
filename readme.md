@@ -35,9 +35,9 @@ This notebook transitions into network neuroscience, exploring how structural pa
 - **Graph-Theoretical Characterization:** Mapping the functional and structural brain graphs to calculate core topological features such as degree, strength, clustering coefficients, path lengths, and centrality metrics.
 -**Structure–Function Coupling:** Quantifying the alignment between anatomical wiring (SC) and statistical dependencies (FC) using matrix correlation and node-level metrics.
 
-📁 [`structural_functional_connectivity_tutorial_2026_v2.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial_2026_v2.ipynb)
+📁 [`structural_functional_connectivity_tutorial_2026_v3.ipynb`](https://github.com/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial_2026_v3.ipynb)
   
-<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial_2026_v2.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+<a target="_blank" href="https://colab.research.google.com/github/pdesrosiers/brain-connectivity-and-dynamics/blob/main/notebooks/structural_functional_connectivity_tutorial_2026_v3.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 
